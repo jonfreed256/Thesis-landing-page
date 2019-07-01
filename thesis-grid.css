@@ -39,6 +39,7 @@ body {
   justify-content: space-evenly;
   list-style: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .r1c3 {
@@ -60,9 +61,17 @@ body {
   display: flex;
   flex-flow: row wrap;
   padding-left: 7em;
-  padding-right: 3em;
   font-weight: bolder;
   margin-top: 1em;
+}
+
+.msg-ctr {
+  width: 350px;
+}
+
+.top-msg {
+  font-size: 50px;
+  letter-spacing: 0.2px;
 }
 
 .r2c2 {
@@ -71,9 +80,12 @@ body {
   display: flex;
   flex-flow: row wrap;
   padding-right: 7em;
-  padding-left: 7em;
   margin-top: 1em;
-  background: black;
+}
+
+.signup {
+  width: 400px;
+  margin-bottom: 10em;
 }
 
 .form-top-text {
@@ -83,11 +95,6 @@ body {
   margin-top: 10px;
   letter-spacing: 0.05rem;
   font-size: 18px;
-}
-
-.signup {
-  width: 425px;
-  margin-bottom: 10em;
 }
 
 .top-input {
