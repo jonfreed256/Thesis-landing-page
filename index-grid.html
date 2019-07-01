@@ -12,47 +12,64 @@
       <div class="r1c1">Stamp</div>
       <div class="r1c2">
         <ul class="nav">
-          <li class="nav-item">About</li>
-          <li class="nav-item">Integrations</li>
-          <li class="nav-item">Pricing</li>
-          <li class="nav-item">Contacts</li>
+          <a href="#"><li class="nav-item">About</li></a>
+          <a href="#"><li class="nav-item">Integrations</li></a>
+          <a href="#"><li class="nav-item">Pricing</li></a>
+          <a href="#"><li class="nav-item">Contacts</li></a>
         </ul>
       </div>
       <div class="r1c3">Burger</div>
       <div class="r2c1">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
-        beatae aspernatur quo voluptatem excepturi nostrum soluta vel deserunt
-        dolorem a, velit error modi quod, nemo ipsam sed expedita nam ratione!
+        <div class="top-msg">
+          Simple Way to Organize Your Inspirations
+        </div>
       </div>
       <div class="r2c2">
-        <form action="submit" method="post">
-          <div class="signup">
-            <input
-              type="text"
-              placeholder="Name"
-              tabindex="1"
-              required
-              autofocus
-            />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              tabindex="2"
-              required
-              placeholder="E-mail"
-            />
-            <input
-              type="password"
-              name="password"
-              id="password"
-              tabindex="3"
-              required
-              placeholder="Password"
-            />
-            <input class="submit-btn" type="submit" value="Sign up >" />
-          </div>
-        </form>
+        <div class="signup">
+          <h3 class="form-top-text">SIGN UP FOR FREE</h3>
+          <form action="submit" method="post">
+            <div class="name-ctr">
+              <label for="name"></label>
+              <input
+                class="top-input"
+                name="name"
+                type="text"
+                placeholder="Name"
+                tabindex="1"
+                required
+                autofocus
+              />
+            </div>
+            <div class="email-ctr">
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                tabindex="2"
+                required
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="password-ctr">
+              <label for="password"></label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                tabindex="3"
+                required
+                placeholder="Password"
+              />
+            </div>
+            <button class="submit-btn" href="#">
+              Sign Up
+            </button>
+          </form>
+          <h6 class="form-btm-text">
+            By clicking 'Sign Up' I agree to Terms of Service.
+          </h6>
+        </div>
       </div>
       <div class="r3c1">Copyright</div>
       <div class="r3c2">Footer Menu</div>
